@@ -233,6 +233,10 @@ stopBtn.addEventListener('click', () => {
   }
 });
 
+clearBtn.addEventListener('click', () => {
+  result.textContent = ' ';
+});
+
 
 
 
