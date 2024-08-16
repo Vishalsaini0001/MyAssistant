@@ -221,21 +221,6 @@ if (annyang) {
   };
 }
 
-startBtn.addEventListener('click', () => {
-  if (recognition) {
-    recognition.start({ autoRestart: false });
-  }
-});
-
-stopBtn.addEventListener('click', () => {
-  if (recognition) {
-    recognition.abort();
-  }
-});
-
-clearBtn.addEventListener('click', () => {
-  result.textContent = ' ';
-});
 
 
 
